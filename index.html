@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b282e">
+<meta name="description" content="Deep Bounce is an Android arcade game with 50 handcrafted levels, Endless Mode, upgrades and satisfying ricochet physics.">
+<title>Deep Bounce — Official Website</title>
+<style>
+:root{color-scheme:dark;--bg:#071c21;--panel:#12333a;--text:#f3f8ef;--muted:#b0c9c7;--teal:#65e1d2;--gold:#f8c77e;--line:#34535b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:var(--text);background:radial-gradient(ellipse at 25% 10%,#1d555b 0%,transparent 46%),linear-gradient(145deg,#0b2b30,#07181c 70%);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+a{color:var(--teal)}a:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.container{width:min(1050px,100% - 36px);margin-inline:auto}
+header{background:#07191e99;border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:18px 0}
+.brand{font-weight:900;text-decoration:none;letter-spacing:.06em;color:var(--text)}.brand span{color:var(--gold)}
+nav .links{display:flex;gap:18px;flex-wrap:wrap;font-size:.91rem}nav .links a{text-decoration:none;color:var(--muted)}
+main{padding:48px 0 60px}.eyebrow{font-weight:800;letter-spacing:.15em;color:var(--teal);font-size:.78rem;text-transform:uppercase}
+h1{font-size:clamp(3rem,9vw,5.8rem);letter-spacing:-.05em;line-height:1.05;margin:12px 0 20px}h1 span{color:var(--gold)}
+.lead{font-size:clamp(1.05rem,2vw,1.25rem);max-width:640px;color:var(--muted)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:13px 20px;border-radius:12px;font-weight:750;text-decoration:none;color:#06262a;background:var(--teal)}
+.btn.outline{background:transparent;border:1px solid var(--line);color:var(--text)}
+.features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:44px 0 54px}
+.feature,.panel{background:linear-gradient(160deg,#16424a,#0e292e);border:1px solid var(--line);border-radius:18px;padding:24px}
+.feature strong{font-size:1.13rem}.feature p,.panel p{color:var(--muted)}h2{margin:42px 0 18px;font-size:1.52rem}
+ol{padding-left:23px}li{margin:10px 0}footer{border-top:1px solid var(--line);padding:28px 0 42px;color:var(--muted);font-size:.9rem}
+footer .links{display:flex;gap:18px;flex-wrap:wrap}
+@media(max-width:720px){.features{grid-template-columns:1fr;gap:12px}main{padding-top:32px}.container{width:min(100% - 28px,1050px)}}
+</style>
+</head>
+<body>
+<header><nav class="container" aria-label="Main navigation"><a class="brand" href="/">DEEP <span>BOUNCE</span></a><div class="links"><a href="#about">About</a><a href="#testing">Closed testing</a><a href="#support">Support</a></div></nav></header>
+<main class="container">
+<section id="about"><div class="eyebrow">Physics-based Android arcade game</div><h1>Aim. Bounce.<br><span>Dig deeper.</span></h1><p class="lead">Launch balls into a mysterious mine, ricochet through numbered stones, upgrade your equipment, and reach new depths. Easy to pick up; challenging to master.</p><div class="btns"><a class="btn" href="https://play.google.com/apps/testing/com.deepbounce.game">Join the closed test</a><a class="btn outline" href="#testing">How to playtest</a></div></section>
+<section class="features" aria-label="Game features"><div class="feature"><strong>50 handcrafted levels</strong><p>Explore five chapters of increasingly tricky challenges.</p></div><div class="feature"><strong>Endless Mode</strong><p>Try to beat your depth record, run after run.</p></div><div class="feature"><strong>Upgrades &amp; cosmetics</strong><p>Improve your strategy and customize your cannon and balls.</p></div></section>
+<section id="testing"><h2>Join the Google Play closed test</h2><div class="panel"><p>Deep Bounce is currently available to enrolled Android testers through Google Play. The testing program is free to join.</p><ol><li><a href="https://groups.google.com/g/deepbounce-testers">Join the Deep Bounce testers Google Group</a>.</li><li>Using the same Google account, <a href="https://play.google.com/apps/testing/com.deepbounce.game">opt in to testing on Google Play</a>.</li><li>Install the game through Google Play, test it, and send feedback about gameplay, performance, or bugs.</li></ol><p>If the installation link is unavailable, check that your Google account has joined the group and opted in.</p></div></section>
+<section id="support"><h2>Support &amp; legal</h2><div class="panel"><p>Questions, bug reports or suggestions? Contact <a href="mailto:deepbounce.support@gmail.com">deepbounce.support@gmail.com</a>.</p><p><a href="https://vladislavdrucok-tech.github.io/deepbounce/">Privacy Policy</a> · <a href="https://vladislavdrucok-tech.github.io/deepbounce/terms-of-use.html">Terms of Use</a></p><p>Android application ID: <code>com.deepbounce.game</code>.</p></div></section>
+</main>
+<footer><div class="container"><div class="links"><span>© 2026 Deep Bounce</span><a href="https://vladislavdrucok-tech.github.io/deepbounce/">Privacy Policy</a><a href="https://vladislavdrucok-tech.github.io/deepbounce/terms-of-use.html">Terms of Use</a><a href="mailto:deepbounce.support@gmail.com">Contact</a></div></div></footer>
+</body>
+</html>
